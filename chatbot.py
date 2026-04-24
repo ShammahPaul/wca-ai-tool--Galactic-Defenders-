@@ -28,3 +28,7 @@ print("AI Summarizer is ready!\n")
 
 while True:
     user_input = input("Hi, What are we summarizing:\n> ")
+
+    if not is_valid_report(user_input):
+        print("\nSummarizer: Please provide a valid report or long text to summarize.\n")
+        continue
