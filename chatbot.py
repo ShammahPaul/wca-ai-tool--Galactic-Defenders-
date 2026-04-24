@@ -46,3 +46,7 @@ while True:
      # Correct way to extract text
     reply = ""
     for block in response.content:
+        if block.type == "text":
+            reply += block.text
+
+    # Print nicely in terminal
