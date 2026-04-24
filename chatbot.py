@@ -42,3 +42,7 @@ while True:
             {"role": "user", "content": user_input}
         ],
     )
+
+     # Correct way to extract text
+    reply = ""
+    for block in response.content:
