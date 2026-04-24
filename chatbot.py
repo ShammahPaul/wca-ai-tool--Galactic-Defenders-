@@ -26,3 +26,5 @@ def is_valid_report(text):
 
 print("AI Summarizer is ready!\n")
 
+while True:
+    user_input = input("Hi, What are we summarizing:\n> ")
