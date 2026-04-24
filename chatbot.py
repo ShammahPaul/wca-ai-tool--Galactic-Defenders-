@@ -11,6 +11,7 @@ Rules:
 - Only summarize reports, articles, or long-form informational text.
 - If the input is not a report or is too short, respond with:
   "Please provide a valid report or long text to summarize."
+- Do NOT answer questions.
 - Output only a concise summary.
 
 Format:
@@ -22,3 +23,6 @@ Format:
 # Simple validation
 def is_valid_report(text):
     return len(text.split()) > 50
+
+print("AI Summarizer is ready!\n")
+
