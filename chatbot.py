@@ -50,3 +50,7 @@ while True:
             reply += block.text
 
     # Print nicely in terminal
+    print("\n" + "="*50)
+    print("SUMMARY:\n")
+    print(reply.strip())
+    print("="*50 + "\n")
