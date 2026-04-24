@@ -35,3 +35,10 @@ while True:
     
     # Send request
     response = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=300,
+        system=SYSTEM_PROMPT,
+        messages=[
+            {"role": "user", "content": user_input}
+        ],
+    )
