@@ -15,3 +15,6 @@ Rules:
 
 Format:
 - Title (if available)
+- 3–5 bullet key points
+- Short conclusion (1–2 sentences)
+"""
