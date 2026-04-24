@@ -18,3 +18,7 @@ Format:
 - 3–5 bullet key points
 - Short conclusion (1–2 sentences)
 """
+
+# Simple validation
+def is_valid_report(text):
+    return len(text.split()) > 50
