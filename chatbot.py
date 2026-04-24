@@ -32,3 +32,6 @@ while True:
     if not is_valid_report(user_input):
         print("\nSummarizer: Please provide a valid report or long text to summarize.\n")
         continue
+    
+    # Send request
+    response = client.messages.create(
