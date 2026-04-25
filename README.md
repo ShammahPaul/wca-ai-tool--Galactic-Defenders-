@@ -61,8 +61,12 @@ In the terminal, type:
 
 ### Step 7: Use it
 After running it you will see:
+
   AI chatbot is ready!
   Hi, What are we summarizing:
+  
 Paste your report then press enter
+
 You will get a summary
+
 To stop you type exit.
