@@ -1,5 +1,28 @@
 # wca-ai-tool--Galactic-Defenders-
-This is an AI powered report summarizer. 
+# AI Document Summariser
+
+**We Can Academy - Artificial Intelligence Course**
+**End of season Project**
+This is an AI powered report summarizer.
+
+
+---
+
+## What Our Tool Does
+
+Our tool is a python program that takes a long document or report and makes it shorter using AI. You type or paste your text into the terminal and the program sends it to Claude (an AI model by Anthropic) and gives you back a summary with bullet points and a conclusion.
+
+## The Problem We Are Solving
+
+Many people in Kenya and around the world spend too much time reading long reports, academic papers, and policy documents. Students, professionals, journalists, and NGO workers all need to read a lot but dont have enough time. Our tool helps by using AI to quickly summarise long texts into short, easy to read summaries.
+
+## How To Run The Tool
+
+### Step 1: Install Python
+Make sure you have Python 3 or higher installed on your computer.
+
+### Step 2: Install the anthropic library
+Open your terminal or command prompt and type:
 Git clone to your IDE via https://github.com/ShammahPaul/wca-ai-tool--Galactic-Defenders-.git
 
 # Summariser project
