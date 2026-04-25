@@ -39,24 +39,31 @@ Make sure you have Python 3 or higher installed on your computer.
 
 ### Step 2: Clone the repository
 Open your terminal or command prompt and type:
+
 Git clone  https://github.com/ShammahPaul/wca-ai-tool--Galactic-Defenders-.git
 
 ### Step 3: Create and activate your virtual environment
 On your terminal create venv
+
   python -m venv venv
+  
 Activate it :-
+
   venv/Scripts/activate
 
 ### Step 4: Install dependencies
 This is the requirements.txt
+
   pip install -r requirements.txt
 
 ### Step 5: Add the API key
 In the terminal, type:
+
   set ANTHROPIC_API_KEY=your_api_key_here
 
 ### Step 6: Run the chatbot.
 In the terminal, type:
+
   python main.py
 
 ### Step 7: Use it
